@@ -15,9 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-### I'm Graduate student researcher
+### I'm a Graduate student researcher
 
-- 🔭 I’m Master's student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
+- 🔭 I’m a Master's student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
 - 🌱 I’m currently learning **Statistics**
 
 ---
@@ -30,6 +30,7 @@ Here are some ideas to get you started:
 ### Technical skills
 
 Stack overflow:
+
 <a href="https://stackoverflow.com/users/10358660/blended"><img src="https://stackoverflow.com/users/flair/10358660.png" width="208" height="58" alt="profile for Blended at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Blended at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
 
 ---
