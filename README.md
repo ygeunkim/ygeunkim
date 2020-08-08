@@ -1,5 +1,8 @@
 ### Hi there 👋, I'm [Young Geun Kim](https://ygeunkim.github.io)
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=ygeunkim.ygeunkim)
+[![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
+
 <!--
 **ygeunkim/ygeunkim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -19,10 +22,6 @@ Here are some ideas to get you started:
 
 - 🔭 I’m a Master's student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
 - 🌱 I’m currently learning **Statistics**
-
----
-
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=ygeunkim.ygeunkim)
 
 ---
 
