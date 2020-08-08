@@ -35,8 +35,4 @@ Stack overflow:
 
 ---
 
-<img align="left" alt="ygeunkim's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ygeunkim&show_icons=true&hide_border=true" />
-
----
-
-![ygeunkim's github stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true)
+![ygeunkim's github stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true)
