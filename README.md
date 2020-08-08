@@ -29,6 +29,8 @@ Here are some ideas to get you started:
 
 ### Technical skills
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim)](https://github.com/anuraghazra/github-readme-stats)
+
 Stack overflow:
 
 <a href="https://stackoverflow.com/users/10358660/blended"><img src="https://stackoverflow.com/users/flair/10358660.png" width="208" height="58" alt="profile for Blended at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Blended at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
