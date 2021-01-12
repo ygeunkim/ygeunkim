@@ -1,4 +1,4 @@
-### Hi there 👋, I'm [Young Geun Kim](https://ygeunkim.github.io)
+### Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I'm [Young Geun Kim](https://ygeunkim.github.io)
 
 Thanks visiting my page:
 
