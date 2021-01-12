@@ -1,6 +1,9 @@
 ### Hi there 👋, I'm [Young Geun Kim](https://ygeunkim.github.io)
 
+Thanks visiting my page:
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ygeunkim.ygeunkim)
+
 [![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
 
 <!--
@@ -20,18 +23,12 @@ Here are some ideas to get you started:
 
 ### I'm a Graduate student researcher
 
-- 🔭 I’m a Master's student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
+- 🔭 I’m a graduate student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
 - 🌱 I’m currently learning **Statistics**
 
 ---
 
 ### Technical skills
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&hide=javascript,html,css&count_private=true)
-
-Stack overflow:
-
-<a href="https://stackoverflow.com/users/10358660/blended"><img src="https://stackoverflow.com/users/flair/10358660.png" width="208" height="58" alt="profile for Blended at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Blended at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
 
 ---
 
