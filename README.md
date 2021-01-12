@@ -37,6 +37,6 @@ Here are some ideas to get you started:
 ![](https://img.shields.io/badge/Editior-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=blue)
 ![](https://img.shields.io/badge/Editior-PyCharm-informational?style=flat&logo=pycharm&logoColor=white&color=green)
 
----
+### 🧑🏼‍💻 I spent my time in github...
 
 ![ygeunkim's github stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true)
