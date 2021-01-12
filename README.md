@@ -3,7 +3,6 @@
 Thanks visiting my page:
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ygeunkim.ygeunkim)
-
 [![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
 
 <!--
@@ -29,6 +28,13 @@ Here are some ideas to get you started:
 ---
 
 ### Technical skills
+
+![](https://img.shields.io/badge/OS-macOS-informational?style=flat&logo=apple&logoColor=white&color=blue)
+![](https://img.shields.io/badge/Code-R-informational?style=flat&logo=r&logoColor=white&color=blue)
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)
+![](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=green)
+![](https://img.shields.io/badge/IDE-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=blue)
+![](https://img.shields.io/badge/IDE-PyCharm-informational?style=flat&logo=pycharm&logoColor=white&color=green)
 
 ---
 
