@@ -24,6 +24,9 @@ Here are some ideas to get you started:
 
 - 🔭 I’m a graduate student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
 - 🌱 I’m currently learning **Statistics**
+- 🤔 I’m interested in time series, especially
+    - long-range dependency, and
+    - and high dimensional time series
 
 ---
 
