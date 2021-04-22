@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning **Statistics**
 - 🤔 I’m interested in time series, especially
     - long-range dependency, and
-    - and high dimensional time series
+    - high dimensional time series
 
 ---
 
