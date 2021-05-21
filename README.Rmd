@@ -1,0 +1,102 @@
+---
+output: 
+  bookdown::github_document2:
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = "center",
+  fig.width = 6,
+  fig.asp = .618
+  )
+options(digits = 3)
+options(knitr.kable.NA = "")
+options(kableExtra.latex.load_packages = FALSE)
+is_html <- knitr::opts_knit$get("rmarkdown.pandoc.to") == "html"
+is_latex <- knitr::opts_knit$get("rmarkdown.pandoc.to") == "latex"
+kable_format <- ifelse(!is_html, "latex", "html")
+kable_format <- ifelse(length(kable_format) == 0, "html", kable_format) # for excecutable
+```
+
+```{r pkgs, message=FALSE, echo=FALSE}
+# tidyverse family---------------------
+library(tidyverse)
+# large data---------------------------
+library(data.table)
+# kable--------------------------------
+library(knitr)
+library(kableExtra)
+# multivariate FARIMA------------------
+library(multiwave)
+# set seed for report -----------------
+set.seed(1)
+```
+
+### Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I'm [Young Geun Kim](https://ygeunkim.github.io)
+
+Thanks for visiting my page:
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=ygeunkim.ygeunkim)
+[![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
+
+### I'm a Graduate student researcher
+
+- `r emo::ji("telescope")` I’m a graduate student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
+- `r emo::ji("seedling")` I’m currently learning **Statistics**
+- `r emo::ji("thinking")` I’m interested in time series, especially
+    - long-range dependency, and
+    - high dimensional time series
+
+```{r mfarima, include=FALSE}
+# cov_matrix---------------------------------------
+# ndim=2 means creating block matrix replication S1 ndim times
+ndim <- 1
+S1 <- diag(20)
+S1[1, 6] <- S1[6, 1] <- .7
+S1[11, 14] <- S1[14, 11] <- .5
+S1[20, 3] <- S1[3, 20] <- .4
+S1 <- kronecker(diag(ndim), S1)
+# Generate function - n * p LRD data
+generate_lrd <- function(n = 200, p = 20, cov_matrix = S1, burn = 2000) {
+  # LRD parameters-----------------------------------
+  d <- runif(p, .1, .45)
+  d <- floor(100 * d) / 100
+  fivarma(
+    N = n, d = d, cov_matrix = solve(cov_matrix),
+    VAR = NULL, VMA = NULL,
+    skip = burn
+  )$x
+}
+# Generate-------------------------------------------
+lrd_data <- as.data.table(generate_lrd(n = 15000))
+```
+
+```{r lrdmulti, echo=FALSE}
+lrd_data %>% 
+  mutate(id = 1:n()) %>% 
+  pivot_longer(-id, names_to = "name", values_to = "value") %>% 
+  ggplot(aes(x = id)) +
+  geom_path(aes(y = value, colour = name), alpha = .5, show.legend = FALSE) +
+  theme_minimal() +
+  theme(axis.title = element_blank())
+```
+
+---
+
+### Technical skills
+
+![](https://img.shields.io/badge/OS-macOS-informational?style=flat&logo=apple&logoColor=white&color=blue)
+![](https://img.shields.io/badge/Code-R-informational?style=flat&logo=r&logoColor=white&color=blue)
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)
+![](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=green)
+![](https://img.shields.io/badge/Editior-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=blue)
+![](https://img.shields.io/badge/Editior-PyCharm-informational?style=flat&logo=pycharm&logoColor=white&color=green)
+
+### 🧑🏼‍💻 I spent my time in github...
+
+![ygeunkim's github stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true)
+
