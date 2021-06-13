@@ -8,6 +8,8 @@ Thanks for visiting my page:
 
 ### I’m a Graduate student researcher
 
+-   👨‍🎓 B.E. in Statistics at **[department of statistics, Sungkyunkwan
+    University](https://stat.skku.edu/stat/index.do)**
 -   🔭 I’m a graduate student at **[department of statistics,
     Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
 -   🌱 I’m currently learning **Statistics**
@@ -15,7 +17,28 @@ Thanks for visiting my page:
     -   long-range dependency, and
     -   high dimensional time series
 
-<img src="README_files/figure-gfm/lrdmulti-1.png" width="70%" style="display: block; margin: auto;" />
+<div class="figure" style="text-align: center">
+
+<img src="README_files/figure-gfm/lrdmulti-1.png" alt="Generate LRD Time Series" width="70%" />
+<p class="caption">
+Figure 1: Generate LRD Time Series
+</p>
+
+</div>
+
+-   e.g. Realized volatility data from
+    [https://realized.oxford-man.ox.ac.uk](https://realized.oxford-man.ox.ac.uk/data/assets):
+    -   Modeling and forecasting
+    -   Based on vector autoregression
+
+<div class="figure" style="text-align: center">
+
+<img src="README_files/figure-gfm/rvplot-1.png" alt="Realized Volatility of Financial Indices" width="70%" />
+<p class="caption">
+Figure 2: Realized Volatility of Financial Indices
+</p>
+
+</div>
 
 ------------------------------------------------------------------------
 
@@ -30,5 +53,26 @@ Thanks for visiting my page:
 
 ### 🧑🏼‍💻 I spent my time in github…
 
-![ygeunkim’s github
-stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true)
+<!-- [![Readme Card](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) -->
+<!-- ![ygeunkim's github stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true) -->
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-blogdown,young-comment,ygeunkim,ygeunkim-blogdown)](https://github.com/anuraghazra/github-readme-stats) -->
+<details>
+<summary>
+💯 My Activities
+</summary>
+<br/>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="ygeunkim's github stats" src="https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true&theme=solarized-dark" height="192px"/></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Languages in my repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-blogdown,young-comment,ygeunkim,ygeunkim-blogdown,cv&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages in my repos" height="192px"/></a>
+<br/>
+</details>
+<!-- <br/> -->
+<!--     <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="ygeunkim's github stats" src="https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true&theme=solarized-dark" height="192px"/></a> -->
+<!--   <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Languages in my repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-blogdown,young-comment,ygeunkim,ygeunkim-blogdown,cv&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages in my repos" height="192px"/></a> -->
+<!-- <br/> -->
+<!-- [![ygeunkim's github activity graph](https://activity-graph.herokuapp.com/graph?username=ygeunkim&theme=github)](https://github.com/ashutosh00710/github-readme-activity-graph) -->
+<details>
+<summary>
+📈 Contribution Timeline
+</summary>
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="ygeunkim's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ygeunkim&theme=github" /></a>
+</details>
