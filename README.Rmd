@@ -43,7 +43,7 @@ library(gganimate)
 set.seed(1)
 ```
 
-### Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I'm [Young Geun Kim](https://ygeunkim.github.io)
+## Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I'm [Young Geun Kim](https://ygeunkim.github.io) <a href='https://github.com/ygeunkim'><img src='ygeunlogo.png' align="right" height="139" /></a>
 
 Thanks for visiting my page:
 
@@ -52,10 +52,10 @@ Thanks for visiting my page:
 
 ### I'm a Graduate student researcher
 
-- `r emo::ji("graduation")` B.E. in Statistics at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
-- `r emo::ji("telescope")` I’m a graduate student at **[department of statistics, Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
-- `r emo::ji("seedling")` I’m currently learning **Statistics**
-- `r emo::ji("thinking")` I’m interested in time series, especially
+- 🧑🏼‍🎓 B.E. in Statistics, **[Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)**
+- `r emo::ji("telescope")` I’m a graduate student at **[department of statistics, SKKU](https://stat.skku.edu/stat/index.do)**
+<!-- - `r emo::ji("seedling")` I’m currently learning **Statistics** -->
+- `r emo::ji("thinking")` I’m interested in **time series**, especially
     - long-range dependency, and
     - high dimensional time series
 
@@ -83,7 +83,7 @@ generate_lrd <- function(n = 200, p = 20, cov_matrix = S1, burn = 2000) {
 lrd_data <- as.data.table(generate_lrd(n = 15000))
 ```
 
-```{r lrdmulti, fig.cap="Generate LRD Time Series"}
+```{r lrdmulti, fig.cap="LRD Time Series"}
 lrd_data %>% 
   mutate(id = 1:n()) %>% 
   pivot_longer(-id, names_to = "name", values_to = "value") %>% 

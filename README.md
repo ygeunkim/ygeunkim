@@ -1,5 +1,5 @@
 
-### Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I’m [Young Geun Kim](https://ygeunkim.github.io)
+## Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I’m [Young Geun Kim](https://ygeunkim.github.io) <a href='https://github.com/ygeunkim'><img src='ygeunlogo.png' align="right" height="139" /></a>
 
 Thanks for visiting my page:
 
@@ -8,20 +8,20 @@ Thanks for visiting my page:
 
 ### I’m a Graduate student researcher
 
--   👨‍🎓 B.E. in Statistics at **[department of statistics, Sungkyunkwan
-    University](https://stat.skku.edu/stat/index.do)**
+-   🧑🏼‍🎓 B.E. in Statistics, **[Sungkyunkwan University
+    (SKKU)](https://www.skku.edu/eng/)**
 -   🔭 I’m a graduate student at **[department of statistics,
-    Sungkyunkwan University](https://stat.skku.edu/stat/index.do)**
--   🌱 I’m currently learning **Statistics**
--   🤔 I’m interested in time series, especially
+    SKKU](https://stat.skku.edu/stat/index.do)**
+    <!-- - 🌱 I’m currently learning **Statistics** -->
+-   🤔 I’m interested in **time series**, especially
     -   long-range dependency, and
     -   high dimensional time series
 
 <div class="figure" style="text-align: center">
 
-<img src="README_files/figure-gfm/lrdmulti-1.png" alt="Generate LRD Time Series" width="70%" />
+<img src="README_files/figure-gfm/lrdmulti-1.png" alt="LRD Time Series" width="70%" />
 <p class="caption">
-Figure 1: Generate LRD Time Series
+Figure 1: LRD Time Series
 </p>
 
 </div>
