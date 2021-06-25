@@ -62,7 +62,7 @@ Figure 2: Realized Volatility of Financial Indices
 </summary>
 <br/>
 <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="ygeunkim's github stats" src="https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true&theme=solarized-dark" height="192px"/></a>
-<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Languages in my repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-blogdown,young-comment,ygeunkim,ygeunkim-blogdown,cv&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages in my repos" height="192px"/></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Languages in my repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-comment,ygeunkim,ygeunkim-blogdown&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages in my repos" height="192px"/></a>
 <br/>
 </details>
 <!-- <br/> -->
