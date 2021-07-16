@@ -12,7 +12,6 @@ Thanks for visiting my page:
     (SKKU)](https://www.skku.edu/eng/)**
 -   🔭 I’m a graduate student at **[department of statistics,
     SKKU](https://stat.skku.edu/stat/index.do)**
-    <!-- - 🌱 I’m currently learning **Statistics** -->
 -   🤔 I’m interested in **time series**, especially
     -   long-range dependency, and
     -   high dimensional time series
@@ -53,9 +52,6 @@ Figure 2: Realized Volatility of Financial Indices
 
 ### 🧑🏼‍💻 I spent my time in github…
 
-<!-- [![Readme Card](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) -->
-<!-- ![ygeunkim's github stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true) -->
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-blogdown,young-comment,ygeunkim,ygeunkim-blogdown)](https://github.com/anuraghazra/github-readme-stats) -->
 <details>
 <summary>
 💯 My Activities
@@ -65,14 +61,16 @@ Figure 2: Realized Volatility of Financial Indices
 <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Languages in my repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-comment,ygeunkim,ygeunkim-blogdown&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages in my repos" height="192px"/></a>
 <br/>
 </details>
-<!-- <br/> -->
-<!--     <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="ygeunkim's github stats" src="https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true&theme=solarized-dark" height="192px"/></a> -->
-<!--   <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Languages in my repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-blogdown,young-comment,ygeunkim,ygeunkim-blogdown,cv&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages in my repos" height="192px"/></a> -->
-<!-- <br/> -->
-<!-- [![ygeunkim's github activity graph](https://activity-graph.herokuapp.com/graph?username=ygeunkim&theme=github)](https://github.com/ashutosh00710/github-readme-activity-graph) -->
 <details>
 <summary>
 📈 Contribution Timeline
 </summary>
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="ygeunkim's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ygeunkim&theme=github" /></a>
 </details>
+
+------------------------------------------------------------------------
+
+### Recent Publications
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
