@@ -73,4 +73,6 @@ Figure 2: Realized Volatility of Financial Indices
 ### Recent Publications
 
 <!-- BLOG-POST-LIST:START -->
+- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
+- [Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
