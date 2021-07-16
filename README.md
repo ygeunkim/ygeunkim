@@ -41,16 +41,14 @@ Figure 2: Realized Volatility of Financial Indices
 
 ------------------------------------------------------------------------
 
-### Technical skills
-
-![](https://img.shields.io/badge/OS-macOS-informational?style=flat&logo=apple&logoColor=white&color=blue)
-![](https://img.shields.io/badge/Code-R-informational?style=flat&logo=r&logoColor=white&color=blue)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)
-![](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=green)
-![](https://img.shields.io/badge/Editior-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=blue)
-![](https://img.shields.io/badge/Editior-PyCharm-informational?style=flat&logo=pycharm&logoColor=white&color=green)
-
 ### 🧑🏼‍💻 I spent my time in github…
+
+![mac-os](https://img.shields.io/badge/OS-macOS-informational?style=flat&logo=apple&logoColor=white&color=FA243C)
+[![r-lang](https://img.shields.io/badge/Code-R-informational?style=flat&logo=r&logoColor=white&color=276DC3)](https://github.com/topics/r)
+[![py-lang](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)](https://github.com/topics/python)
+[![latex-lang](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=008080)](https://github.com/topics/latex)
+[![rst-ide](https://img.shields.io/badge/Editior-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=75AADB)](https://github.com/rstudio/rstudio)
+![py-ide](https://img.shields.io/badge/Editior-PyCharm-informational?style=flat&logo=pycharm&logoColor=white&color=fcf84a)
 
 <details>
 <summary>
@@ -72,7 +70,7 @@ Figure 2: Realized Volatility of Financial Indices
 
 ### Recent Publications
 
+[![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
+
 <!-- BLOG-POST-LIST:START -->
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
