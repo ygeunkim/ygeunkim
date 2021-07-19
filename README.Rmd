@@ -82,6 +82,8 @@ generate_lrd <- function(n = 200, p = 20, cov_matrix = S1, burn = 2000) {
 lrd_data <- as.data.table(generate_lrd(n = 15000))
 ```
 
+<details>
+  <summary>See the generated LRD figure</summary>
 ```{r lrdmulti, fig.cap="LRD Time Series"}
 lrd_data %>% 
   mutate(id = 1:n()) %>% 
@@ -91,6 +93,7 @@ lrd_data %>%
   theme_minimal() +
   theme(axis.title = element_blank())
 ```
+</details>
 
 - e.g. Realized volatility data from [https://realized.oxford-man.ox.ac.uk](https://realized.oxford-man.ox.ac.uk/data/assets):
     - Modeling and forecasting
@@ -106,6 +109,8 @@ rk <-
   as_tsibble(key = Index, index = Date)
 ```
 
+<details>
+  <summary>See the dataset figure</summary>
 ```{r rvplot, fig.cap="Realized Volatility of Financial Indices", fig.asp = 1}
 rk %>% 
   filter_index("2015" ~ "2019") %>% 
@@ -119,7 +124,7 @@ rk %>%
     y = "5-min Realized Variance"
   )
 ```
-
+</details>
 
 ---
 

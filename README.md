@@ -16,6 +16,11 @@ Thanks for visiting my page:
     -   long-range dependency, and
     -   high dimensional time series
 
+<details>
+<summary>
+See the generated LRD figure
+</summary>
+
 <div class="figure" style="text-align: center">
 
 <img src="README_files/figure-gfm/lrdmulti-1.png" alt="LRD Time Series" width="70%" />
@@ -25,10 +30,17 @@ Figure 1: LRD Time Series
 
 </div>
 
+</details>
+
 -   e.g. Realized volatility data from
     [https://realized.oxford-man.ox.ac.uk](https://realized.oxford-man.ox.ac.uk/data/assets):
     -   Modeling and forecasting
     -   Based on vector autoregression
+
+<details>
+<summary>
+See the dataset figure
+</summary>
 
 <div class="figure" style="text-align: center">
 
@@ -38,6 +50,8 @@ Figure 2: Realized Volatility of Financial Indices
 </p>
 
 </div>
+
+</details>
 
 ------------------------------------------------------------------------
 
@@ -73,6 +87,4 @@ Figure 2: Realized Volatility of Financial Indices
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
