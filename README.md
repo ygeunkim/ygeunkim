@@ -16,42 +16,36 @@ Thanks for visiting my page:
     -   long-range dependency, and
     -   high dimensional time series
 
+<ul>
+<ul>
+<li>
 <details>
 <summary>
-See the generated LRD figure
+e.g. generated LRD figure
 </summary>
-
-<div class="figure" style="text-align: center">
-
-<img src="README_files/figure-gfm/lrdmulti-1.png" alt="LRD Time Series" width="70%" />
-<p class="caption">
-Figure 1: LRD Time Series
-</p>
-
-</div>
-
+<img src="README_files/figure-gfm/lrdmulti-1.png" title="LRD Time Series" alt="LRD Time Series" width="70%" style="display: block; margin: auto;" />
 </details>
+</li>
+</ul>
+</ul>
 
 -   e.g. Realized volatility data from
     [https://realized.oxford-man.ox.ac.uk](https://realized.oxford-man.ox.ac.uk/data/assets):
     -   Modeling and forecasting
     -   Based on vector autoregression
 
+<ul>
+<ul>
+<li>
 <details>
 <summary>
-See the dataset figure
+See the realized volatility of financial assets figure
 </summary>
-
-<div class="figure" style="text-align: center">
-
-<img src="README_files/figure-gfm/rvplot-1.png" alt="Realized Volatility of Financial Indices" width="70%" />
-<p class="caption">
-Figure 2: Realized Volatility of Financial Indices
-</p>
-
-</div>
-
+<img src="README_files/figure-gfm/rvplot-1.png" title="Realized Volatility of Financial Assets" alt="Realized Volatility of Financial Assets" width="70%" style="display: block; margin: auto;" />
 </details>
+</li>
+</ul>
+</ul>
 
 ------------------------------------------------------------------------
 
@@ -62,7 +56,6 @@ Figure 2: Realized Volatility of Financial Indices
 [![py-lang](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)](https://github.com/topics/python)
 [![latex-lang](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=008080)](https://github.com/topics/latex)
 [![rst-ide](https://img.shields.io/badge/Editior-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=75AADB)](https://github.com/rstudio/rstudio)
-![py-ide](https://img.shields.io/badge/Editior-PyCharm-informational?style=flat&logo=pycharm&logoColor=white&color=fcf84a)
 
 <details>
 <summary>
@@ -87,6 +80,4 @@ Figure 2: Realized Volatility of Financial Indices
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->

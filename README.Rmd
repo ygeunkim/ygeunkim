@@ -82,8 +82,11 @@ generate_lrd <- function(n = 200, p = 20, cov_matrix = S1, burn = 2000) {
 lrd_data <- as.data.table(generate_lrd(n = 15000))
 ```
 
-<details>
-  <summary>See the generated LRD figure</summary>
+<ul>
+  <ul>
+    <li>
+      <details>
+        <summary>e.g. generated LRD figure</summary>
 ```{r lrdmulti, fig.cap="LRD Time Series"}
 lrd_data %>% 
   mutate(id = 1:n()) %>% 
@@ -93,7 +96,10 @@ lrd_data %>%
   theme_minimal() +
   theme(axis.title = element_blank())
 ```
-</details>
+      </details>
+    </li>
+  </ul>
+</ul>
 
 - e.g. Realized volatility data from [https://realized.oxford-man.ox.ac.uk](https://realized.oxford-man.ox.ac.uk/data/assets):
     - Modeling and forecasting
@@ -109,9 +115,12 @@ rk <-
   as_tsibble(key = Index, index = Date)
 ```
 
-<details>
-  <summary>See the dataset figure</summary>
-```{r rvplot, fig.cap="Realized Volatility of Financial Indices", fig.asp = 1}
+<ul>
+  <ul>
+    <li>
+      <details>
+        <summary>See the realized volatility of financial assets figure</summary>
+```{r rvplot, fig.cap="Realized Volatility of Financial Assets", fig.asp = 1}
 rk %>% 
   filter_index("2015" ~ "2019") %>% 
   autoplot(rv5, alpha = .6) +
@@ -124,7 +133,10 @@ rk %>%
     y = "5-min Realized Variance"
   )
 ```
-</details>
+      </details>
+    </li>
+  </ul>
+</ul>
 
 ---
 
@@ -135,7 +147,6 @@ rk %>%
 [![py-lang](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)](https://github.com/topics/python)
 [![latex-lang](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=008080)](https://github.com/topics/latex)
 [![rst-ide](https://img.shields.io/badge/Editior-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=75AADB)](https://github.com/rstudio/rstudio)
-![py-ide](https://img.shields.io/badge/Editior-PyCharm-informational?style=flat&logo=pycharm&logoColor=white&color=fcf84a)
 
 <details>
   <summary>💯 My Activities</summary>
