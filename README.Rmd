@@ -156,11 +156,6 @@ rk %>%
     <br/>
 </details>
 
-<details>
-  <summary>📈 Contribution Timeline</summary>
-    <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="ygeunkim's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ygeunkim&theme=github" /></a>
-</details>
-
 ---
 
 ### Recent Publications

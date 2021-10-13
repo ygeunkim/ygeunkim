@@ -66,12 +66,6 @@ See the realized volatility of financial assets figure
 <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Languages in my repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-comment,ygeunkim,ygeunkim-blogdown&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages in my repos" height="192px"/></a>
 <br/>
 </details>
-<details>
-<summary>
-📈 Contribution Timeline
-</summary>
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="ygeunkim's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ygeunkim&theme=github" /></a>
-</details>
 
 ------------------------------------------------------------------------
 
@@ -80,6 +74,4 @@ See the realized volatility of financial assets figure
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
