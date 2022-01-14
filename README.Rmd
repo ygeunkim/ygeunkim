@@ -8,6 +8,7 @@ output:
 knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
+  fig.path = "man/figures/README-",
   out.width = "70%",
   fig.align = "center",
   fig.width = 6,
@@ -33,27 +34,28 @@ library(knitr)
 library(kableExtra)
 # multivariate FARIMA------------------
 library(multiwave)
+source("R/gen-lrd.R")
 # tidyverts----------------------------
 library(tsibble)
 library(feasts)
 library(forecast)
-# animate------------------------------
-# library(gganimate)
 # set seed for report -----------------
 set.seed(1)
 ```
 
-## Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I'm [Young Geun Kim](https://ygeunkim.github.io) <a href='https://github.com/ygeunkim'><img src='ygeunlogo.png' align="right" height="139" /></a>
+## Hi there <img src="man/images/hello.gif" width="30px">, I'm [Young Geun Kim](https://ygeunkim.github.io) <a href='https://ygeunkim.github.io'><img src='man/images/ygeunlogo.png' align="right" height="139" /></a>
 
 Thanks for visiting my page:
 
+<!-- badges: start -->
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ygeunkim.ygeunkim)
 [![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
+<!-- badges: end -->
 
 ### I'm a Graduate student researcher
 
 - 🧑🏼‍🎓 B.E. in Statistics, **[Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)**
-- `r emo::ji("telescope")` I’m a graduate student at **[department of statistics, SKKU](https://stat.skku.edu/stat/index.do)**
+- `r emo::ji("telescope")` I’m a Ph.D. candidate at **[department of statistics, SKKU](https://stat.skku.edu/stat/index.do)**
 - `r emo::ji("thinking")` I’m interested in **time series**, especially
     - long-range dependency, and
     - high dimensional time series
@@ -67,17 +69,6 @@ S1[1, 6] <- S1[6, 1] <- .7
 S1[11, 14] <- S1[14, 11] <- .5
 S1[20, 3] <- S1[3, 20] <- .4
 S1 <- kronecker(diag(ndim), S1)
-# Generate function - n * p LRD data
-generate_lrd <- function(n = 200, p = 20, cov_matrix = S1, burn = 2000) {
-  # LRD parameters-----------------------------------
-  d <- runif(p, .1, .45)
-  d <- floor(100 * d) / 100
-  fivarma(
-    N = n, d = d, cov_matrix = solve(cov_matrix),
-    VAR = NULL, VMA = NULL,
-    skip = burn
-  )$x
-}
 # Generate-------------------------------------------
 lrd_data <- as.data.table(generate_lrd(n = 15000))
 ```
@@ -105,7 +96,7 @@ lrd_data %>%
     - Modeling and forecasting
     - Based on vector autoregression
 
-```{r}
+```{r rvlong}
 rk <- 
   fread("data/oxfordmanrealizedvolatilityindices.csv") %>% 
   .[, .SD, .SDcols = c("V1", "Symbol", "rv5")]

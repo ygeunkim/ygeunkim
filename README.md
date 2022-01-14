@@ -1,16 +1,19 @@
 
-## Hi there <img src="https://raw.githubusercontent.com/ygeunkim/ygeunkim/master/hello.gif?token=AJEKQC5CI2TPUTR2YDQLUYDAAZNNU" width="30px">, I’m [Young Geun Kim](https://ygeunkim.github.io) <a href='https://github.com/ygeunkim'><img src='ygeunlogo.png' align="right" height="139" /></a>
+## Hi there <img src="man/images/hello.gif" width="30px">, I’m [Young Geun Kim](https://ygeunkim.github.io) <a href='https://ygeunkim.github.io'><img src='man/images/ygeunlogo.png' align="right" height="139" /></a>
 
 Thanks for visiting my page:
 
+<!-- badges: start -->
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ygeunkim.ygeunkim)
 [![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
+<!-- badges: end -->
 
 ### I’m a Graduate student researcher
 
 -   🧑🏼‍🎓 B.E. in Statistics, **[Sungkyunkwan University
     (SKKU)](https://www.skku.edu/eng/)**
--   🔭 I’m a graduate student at **[department of statistics,
+-   🔭 I’m a Ph.D. candidate at **[department of statistics,
     SKKU](https://stat.skku.edu/stat/index.do)**
 -   🤔 I’m interested in **time series**, especially
     -   long-range dependency, and
@@ -23,7 +26,7 @@ Thanks for visiting my page:
 <summary>
 e.g. generated LRD figure
 </summary>
-<img src="README_files/figure-gfm/lrdmulti-1.png" title="LRD Time Series" alt="LRD Time Series" width="70%" style="display: block; margin: auto;" />
+<img src="man/figures/README-lrdmulti-1.png" title="LRD Time Series" alt="LRD Time Series" width="70%" style="display: block; margin: auto;" />
 </details>
 </li>
 </ul>
@@ -41,7 +44,7 @@ e.g. generated LRD figure
 <summary>
 See the realized volatility of financial assets figure
 </summary>
-<img src="README_files/figure-gfm/rvplot-1.png" title="Realized Volatility of Financial Assets" alt="Realized Volatility of Financial Assets" width="70%" style="display: block; margin: auto;" />
+<img src="man/figures/README-rvplot-1.png" title="Realized Volatility of Financial Assets" alt="Realized Volatility of Financial Assets" width="70%" style="display: block; margin: auto;" />
 </details>
 </li>
 </ul>
@@ -74,6 +77,4 @@ See the realized volatility of financial assets figure
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
