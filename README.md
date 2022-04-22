@@ -9,43 +9,63 @@ Thanks for visiting my page:
 [![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
 <!-- badges: end -->
 
-### I’m a Graduate student researcher
-
--   🧑🏼‍🎓 B.E. in Statistics, **[Sungkyunkwan University
-    (SKKU)](https://www.skku.edu/eng/)**
--   🔭 I’m a Ph.D. candidate at **[department of statistics,
-    SKKU](https://stat.skku.edu/stat/index.do)**
--   🤔 I’m interested in **time series**, especially
-    -   long-range dependency, and
-    -   high dimensional time series
+### I’m a Statistics student researcher
 
 <ul>
+<li>
+🧑🏼‍🎓 B.E. in Statistics,
+<a href="https://www.skku.edu/eng/"><strong>Sungkyunkwan University
+(SKKU)</strong></a>
+</li>
+<li>
+🔭 I’m a Ph.D. candidate at
+<a href="https://stat.skku.edu/stat/index.do"><strong>department of
+statistics, SKKU</strong></a>
+</li>
+<li>
+🤔 I’m interested in <strong>time series</strong>, especially
+</li>
 <ul>
 <li>
 <details>
 <summary>
-e.g. generated LRD figure
+Long-range dependency,
 </summary>
-<img src="man/figures/README-lrdmulti-1.png" title="LRD Time Series" alt="LRD Time Series" width="70%" style="display: block; margin: auto;" />
+<img src="man/figures/README-lrdmulti-1.png" width="70%" style="display: block; margin: auto;" />
 </details>
 </li>
-</ul>
-</ul>
-
--   e.g. Realized volatility data from
-    [https://realized.oxford-man.ox.ac.uk](https://realized.oxford-man.ox.ac.uk/data/assets):
-    -   Modeling and forecasting
-    -   Based on vector autoregression
-
-<ul>
-<ul>
 <li>
 <details>
 <summary>
-See the realized volatility of financial assets figure
+Vector autoregression
 </summary>
-<img src="man/figures/README-rvplot-1.png" title="Realized Volatility of Financial Assets" alt="Realized Volatility of Financial Assets" width="70%" style="display: block; margin: auto;" />
+<img src="man/figures/README-rvplot-1.png" width="70%" style="display: block; margin: auto;" />
+<ul>
+<li>
+Modeling and forecasting
+</li>
+</ul>
+<ul>
+<li>
+High dimensional time series
+</li>
+</ul>
 </details>
+</li>
+<li>
+Bayesian time series analysis
+</li>
+<li>
+<details>
+<summary>
+Change point analysis
+</summary>
+<img src="man/figures/README-cpplot-1.png" width="70%" style="display: block; margin: auto;" />
+</summary>
+</details>
+</li>
+<li>
+Anomaly detection
 </li>
 </ul>
 </ul>
@@ -77,6 +97,4 @@ See the realized volatility of financial assets figure
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->

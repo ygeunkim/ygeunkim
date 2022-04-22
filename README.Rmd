@@ -52,13 +52,7 @@ Thanks for visiting my page:
 [![Github](https://img.shields.io/github/followers/ygeunkim?label=Follow&style=social)](https://github.com/ygeunkim)
 <!-- badges: end -->
 
-### I'm a Graduate student researcher
-
-- 🧑🏼‍🎓 B.E. in Statistics, **[Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)**
-- `r emo::ji("telescope")` I’m a Ph.D. candidate at **[department of statistics, SKKU](https://stat.skku.edu/stat/index.do)**
-- `r emo::ji("thinking")` I’m interested in **time series**, especially
-    - long-range dependency, and
-    - high dimensional time series
+### I'm a Statistics student researcher
 
 ```{r mfarima, include=FALSE}
 # cov_matrix---------------------------------------
@@ -73,29 +67,6 @@ S1 <- kronecker(diag(ndim), S1)
 lrd_data <- as.data.table(generate_lrd(n = 15000))
 ```
 
-<ul>
-  <ul>
-    <li>
-      <details>
-        <summary>e.g. generated LRD figure</summary>
-```{r lrdmulti, fig.cap="LRD Time Series"}
-lrd_data %>% 
-  mutate(id = 1:n()) %>% 
-  pivot_longer(-id, names_to = "name", values_to = "value") %>% 
-  ggplot(aes(x = id)) +
-  geom_path(aes(y = value, colour = name), alpha = .5, show.legend = FALSE) +
-  theme_minimal() +
-  theme(axis.title = element_blank())
-```
-      </details>
-    </li>
-  </ul>
-</ul>
-
-- e.g. Realized volatility data from [https://realized.oxford-man.ox.ac.uk](https://realized.oxford-man.ox.ac.uk/data/assets):
-    - Modeling and forecasting
-    - Based on vector autoregression
-
 ```{r rvlong}
 rk <- 
   fread("data/oxfordmanrealizedvolatilityindices.csv") %>% 
@@ -106,12 +77,42 @@ rk <-
   as_tsibble(key = Index, index = Date)
 ```
 
+```{r cpsim}
+x1 <- tibble(key = "a", value = rnorm(100, mean = 0), mean = 0)
+x2 <- tibble(key = "b", value = rnorm(150, mean = 5), mean = 5)
+# bind rows and bind time index column----------------
+cp_data <- 
+  bind_rows(x1, x2) %>% 
+  mutate(index = 1:n())
+```
+
 <ul>
-  <ul>
-    <li>
-      <details>
-        <summary>See the realized volatility of financial assets figure</summary>
-```{r rvplot, fig.cap="Realized Volatility of Financial Assets", fig.asp = 1}
+  <li>🧑🏼‍🎓 B.E. in Statistics, <a href="https://www.skku.edu/eng/"><strong>Sungkyunkwan University (SKKU)</strong></a></li>
+  <li>`r emo::ji("telescope")` I’m a Ph.D. candidate at <a href="https://stat.skku.edu/stat/index.do"><strong>department of statistics, SKKU</strong></a></li>
+  <li>`r emo::ji("thinking")` I’m interested in <strong>time series</strong>, especially</li>
+    <ul>
+      <li>
+        <details>
+          <summary>Long-range dependency,</summary>
+```{r lrdmulti}
+lrd_data %>% 
+  mutate(id = 1:n()) %>% 
+  pivot_longer(-id, names_to = "name", values_to = "value") %>% 
+  ggplot(aes(x = id)) +
+  geom_path(aes(y = value, colour = name), alpha = .5, show.legend = FALSE) +
+  theme_minimal() +
+  labs(
+    x = element_blank(),
+    y = element_blank(),
+    title = "Generated LRD Time Series"
+  )
+```
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Vector autoregression</summary>
+```{r rvplot, fig.asp = 1}
 rk %>% 
   filter_index("2015" ~ "2019") %>% 
   autoplot(rv5, alpha = .6) +
@@ -121,12 +122,35 @@ rk %>%
   ) +
   scale_color_viridis_d(option = "A") +
   labs(
-    y = "5-min Realized Variance"
+    x = element_blank(),
+    y = "5-min Realized Variance",
+    title = "Realized Volatility of Financial Assets (data from Oxford-Man)",
   )
 ```
-      </details>
-    </li>
-  </ul>
+        <ul><li>Modeling and forecasting</li></ul>
+        <ul><li>High dimensional time series</li></ul>
+        </details>
+      </li>
+      <li>Bayesian time series analysis</li>
+      <li>
+        <details>
+          <summary>Change point analysis</summary>
+```{r cpplot}
+cp_data %>% 
+  group_by(key) %>% 
+  mutate(xintercept = ifelse(key != "b", max(index), NA)) %>% 
+  ggplot(aes(x = index)) +
+  geom_vline(aes(xintercept = xintercept), col = "red", alpha = .5, na.rm = TRUE) +
+  geom_path(aes(y = value)) +
+  geom_path(aes(y = mean, colour = key)) +
+  theme_minimal() +
+  theme(legend.position = "none", axis.title = element_blank())
+```
+          </summary>
+        </details>
+      </li>
+      <li>Anomaly detection</li>
+    </ul>
 </ul>
 
 ---
