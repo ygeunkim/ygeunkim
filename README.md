@@ -37,7 +37,7 @@ Long-range dependency,
 <li>
 <details>
 <summary>
-Vector autoregression
+Vector autoregression,
 </summary>
 <img src="man/figures/README-rvplot-1.png" width="70%" style="display: block; margin: auto;" />
 <ul>
@@ -53,19 +53,19 @@ High dimensional time series
 </details>
 </li>
 <li>
-Bayesian time series analysis
+Bayesian time series analysis,
 </li>
 <li>
 <details>
 <summary>
-Change point analysis
+Change point analysis,
 </summary>
 <img src="man/figures/README-cpplot-1.png" width="70%" style="display: block; margin: auto;" />
 </summary>
 </details>
 </li>
 <li>
-Anomaly detection
+and Anomaly detection
 </li>
 </ul>
 </ul>
@@ -74,15 +74,13 @@ Anomaly detection
 
 ### 🧑🏼‍💻 I spent my time in github…
 
-![mac-os](https://img.shields.io/badge/OS-macOS-informational?style=flat&logo=apple&logoColor=white&color=FA243C)
 [![r-lang](https://img.shields.io/badge/Code-R-informational?style=flat&logo=r&logoColor=white&color=276DC3)](https://github.com/topics/r)
 [![py-lang](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)](https://github.com/topics/python)
 [![latex-lang](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=008080)](https://github.com/topics/latex)
-[![rst-ide](https://img.shields.io/badge/Editior-RStudio-informational?style=flat&logo=rstudio&logoColor=white&color=75AADB)](https://github.com/rstudio/rstudio)
 
 <details>
 <summary>
-💯 My Activities
+💯 My Activities?
 </summary>
 <br/>
 <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="ygeunkim's github stats" src="https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true&theme=solarized-dark" height="192px"/></a>
@@ -97,6 +95,4 @@ Anomaly detection
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
