@@ -1,7 +1,6 @@
 ---
 output: 
-  bookdown::github_document2:
-    number_sections: false
+  rmarkdown::github_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -88,8 +87,8 @@ cp_data <-
 
 <ul>
   <li>🧑🏼‍🎓 B.E. in Statistics, <a href="https://www.skku.edu/eng/"><strong>Sungkyunkwan University (SKKU)</strong></a></li>
-  <li>`r emo::ji("telescope")` I’m a Ph.D. candidate at <a href="https://stat.skku.edu/stat/index.do"><strong>department of statistics, SKKU</strong></a></li>
-  <li>`r emo::ji("thinking")` I’m interested in <strong>time series</strong>, especially</li>
+  <li>🔭 I’m a Ph.D. Candidate at <a href="https://stat.skku.edu/stat/index.do"><strong>department of statistics, SKKU</strong></a></li>
+  <li>🤔 I’m interested in <strong>time series</strong>, especially</li>
     <ul>
       <li>
         <details>
