@@ -111,7 +111,7 @@ lrd_data %>%
       <li>
         <details>
           <summary>Vector autoregression,</summary>
-```{r rvplot, fig.asp = 1}
+```{r rvplot, fig.asp = 1, warning=FALSE}
 rk %>% 
   filter_index("2015" ~ "2019") %>% 
   autoplot(rv5, alpha = .6) +
@@ -172,7 +172,7 @@ cp_data %>%
 
 ### Recent Publications
 
-[![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
+[![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->

@@ -92,10 +92,7 @@ and Anomaly detection
 
 ### Recent Publications
 
-[![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=hM-D53EAAAAJ&hl=ko&authuser=3)
+[![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series](https://ygeunkim.github.io/publication/nndsac/)
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
