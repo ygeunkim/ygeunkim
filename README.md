@@ -19,8 +19,8 @@ Thanks for visiting my page:
 </li>
 <li>
 🔭 I’m a Ph.D. Candidate at
-<a href="https://stat.skku.edu/stat/index.do"><strong>department of
-statistics, SKKU</strong></a>
+<a href="https://ecostat.skku.edu/eng_ecostat/programs/departments/stat_intro.do"><strong>department
+of statistics, SKKU</strong></a>
 </li>
 <li>
 🤔 I’m interested in <strong>time series</strong>, especially
@@ -101,7 +101,7 @@ and Anomaly detection
 <!-- [![latex-lang](https://img.shields.io/badge/Write-LaTex-informational?style=flat&logo=latex&logoColor=white&color=008080)](https://github.com/topics/latex) -->
 
 ![ygeunkim’s github
-stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&show_icons=true&hide_border=true&theme=solarized-dark)
+stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&rank_icon=github&show_icons=true&hide_border=true&theme=solarized-dark)
 ![Languages in my
 repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-comment,ygeunkim,ygeunkim-blogdown&hide_border=true&langs_count=10&theme=darcula&layout=compact&custom_title=Languages%20in%20my%20repos)
 
@@ -120,7 +120,4 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
-- [Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series](https://ygeunkim.github.io/publication/nndsac/)
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
