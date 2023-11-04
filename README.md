@@ -86,4 +86,8 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
 <!-- BLOG-POST-LIST:START -->
+- [Bayesian Vector Heterogeneous Autoregressive Modeling](https://ygeunkim.github.io/publication/bvhar/)
+- [Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series](https://ygeunkim.github.io/publication/nndsac/)
+- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
+- [Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- BLOG-POST-LIST:END -->
