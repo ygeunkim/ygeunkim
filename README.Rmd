@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
   fig.width = 6,
   fig.asp = .618,
   echo = FALSE
-  )
+)
 options(digits = 3)
 options(knitr.kable.NA = "")
 options(kableExtra.latex.load_packages = FALSE)
@@ -26,18 +26,9 @@ kable_format <- ifelse(length(kable_format) == 0, "html", kable_format) # for ex
 ```{r pkgs, message=FALSE}
 # tidyverse family---------------------
 library(tidyverse)
-# large data---------------------------
-library(data.table)
 # kable--------------------------------
 library(knitr)
 library(kableExtra)
-# multivariate FARIMA------------------
-library(multiwave)
-source("R/gen-lrd.R")
-# tidyverts----------------------------
-library(tsibble)
-library(feasts)
-# library(forecast)
 # set seed for report -----------------
 set.seed(1)
 ```
@@ -53,70 +44,15 @@ Thanks for visiting my page:
 
 ### I'm a Statistics student researcher
 
-```{r mfarima, include=FALSE}
-# cov_matrix---------------------------------------
-# ndim=2 means creating block matrix replication S1 ndim times
-ndim <- 1
-S1 <- diag(20)
-S1[1, 6] <- S1[6, 1] <- .7
-S1[11, 14] <- S1[14, 11] <- .5
-S1[20, 3] <- S1[3, 20] <- .4
-S1 <- kronecker(diag(ndim), S1)
-# Generate-------------------------------------------
-lrd_data <- as.data.table(generate_lrd(n = 15000))
-```
-
-```{r rvlong}
-rk <- 
-  fread("data/oxfordmanrealizedvolatilityindices.csv") %>% 
-  .[, .SD, .SDcols = c("V1", "Symbol", "rv5")]
-setnames(rk, c("V1", "Symbol"), c("Date", "Index"))
-rk <- 
-  rk %>% 
-  as_tsibble(key = Index, index = Date)
-```
-
 <ul>
   <li>🧑🏼‍🎓 BEc in Statistics, <a href="https://www.skku.edu/eng/"><strong>Sungkyunkwan University (SKKU)</strong></a></li>
   <li>🔭 I’m a Ph.D. Candidate in <a href="https://stat.skku.edu/stat/index.do"><strong>department of statistics, SKKU</strong></a></li>
   <li>🤔 I’m interested in <strong>time series</strong>, especially</li>
     <ul>
-      <li>
-        <details>
-          <summary>Long-range dependency,</summary>
-```{r lrdmulti}
-lrd_data %>% 
-  mutate(id = 1:n()) %>% 
-  pivot_longer(-id, names_to = "name", values_to = "value") %>% 
-  ggplot(aes(x = id)) +
-  geom_path(aes(y = value, colour = name), alpha = .5, show.legend = FALSE) +
-  theme_minimal() +
-  labs(
-    x = element_blank(),
-    y = element_blank(),
-    title = "Generated LRD Time Series"
-  )
-```
-        </details>
-      </li>
+      <li>Long-range dependency,</li>
       <li>
         <details>
           <summary>Vector autoregression,</summary>
-```{r rvplot, fig.asp = 1, warning=FALSE}
-rk %>% 
-  filter_index("2015" ~ "2019") %>% 
-  autoplot(rv5, alpha = .6) +
-  theme_minimal() +
-  theme(
-    legend.position = "bottom"
-  ) +
-  scale_color_viridis_d(option = "A") +
-  labs(
-    x = element_blank(),
-    y = "5-min Realized Variance",
-    title = "Realized Volatility of Financial Assets (data from Oxford-Man)",
-  )
-```
         <ul><li>Modeling and forecasting</li></ul>
         <ul><li>High dimensional time series</li></ul>
         <ul><li>Heterogeneous autoregression (HAR)</li></ul>
@@ -138,10 +74,10 @@ rk %>%
 ![ygeunkim's github stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_private=true&rank_icon=github&show_icons=true&hide_border=true&theme=solarized-dark)
 ![Languages in my repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-comment,young-giscuscomment,ygeunkim,ygeunkim-blogdown&hide_border=true&langs_count=10&hide=TeX&theme=darcula&layout=compact&custom_title=Languages in my repos)
 
-### Recent publications
+### ✍🏻 My research works
 
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
-- [Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series](https://ygeunkim.github.io/publication/nndsac/)
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+

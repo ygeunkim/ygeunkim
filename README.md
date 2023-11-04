@@ -27,19 +27,13 @@ statistics, SKKU</strong></a>
 </li>
 <ul>
 <li>
-<details>
-<summary>
 Long-range dependency,
-</summary>
-<img src="man/figures/README-lrdmulti-1.png" width="70%" style="display: block; margin: auto;" />
-</details>
 </li>
 <li>
 <details>
 <summary>
 Vector autoregression,
 </summary>
-<img src="man/figures/README-rvplot-1.png" width="70%" style="display: block; margin: auto;" />
 <ul>
 <li>
 Modeling and forecasting
@@ -87,15 +81,9 @@ stats](https://github-readme-stats.vercel.app/api?username=ygeunkim&count_privat
 ![Languages in my
 repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&exclude_repo=ygeunkim.github.io,young-comment,young-giscuscomment,ygeunkim,ygeunkim-blogdown&hide_border=true&langs_count=10&hide=TeX&theme=darcula&layout=compact&custom_title=Languages%20in%20my%20repos)
 
-### Recent publications
+### ✍🏻 My research works
 
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
-- [Residual Size is Not Enough for Anomaly Detection: Improving
-  Detection Performance using Residual Similarity in Multivariate Time
-  Series](https://ygeunkim.github.io/publication/nndsac/)
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting
-  Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-- [Contextual Anomaly Detection by Correlated Probability Distributions
-  using Kullback-Leibler
-  Divergence](https://ygeunkim.github.io/publication/kl_poster/)
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
