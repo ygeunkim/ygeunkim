@@ -81,8 +81,7 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
 <table>
-  <!-- JOURNAL:START -->
-  <!-- JOURNAL:END -->
+  <!-- JOURNAL:START --><tr><td><li><a href=https://ygeunkim.github.io/publication/bvhar/>Bayesian Vector Heterogeneous Autoregressive Modeling</a></li></td><td><a href='https://ygeunkim.github.io/publication/#2'><img src='https://img.shields.io/badge/Journal%20article-yellow.svg' alt='journal'></a></td></tr><!-- JOURNAL:END -->
   
   <!-- CONF:START -->
   <!-- CONF:END -->
