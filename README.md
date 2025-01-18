@@ -88,6 +88,5 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
   
   <!-- POSTER:START --><tr><td><li><a href=https://ygeunkim.github.io/publication/kl_poster/>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</a></li></td><td><a href='https://ygeunkim.github.io/publication/#0'><img src='https://img.shields.io/badge/Workshop%20%26%20poster-published-orange.svg' alt='poster'></a></td></tr><!-- POSTER:END -->
   
-  <!-- PATENT:START -->
-  <!-- PATENT:END -->
+  <!-- PATENT:START --><tr><td><li><a href=https://ygeunkim.github.io/publication/somanomaly/>Apparatus and method for detecting outliers in cyber-physical systems</a></li></td><td><a href='https://ygeunkim.github.io/publication/#8'><img src='https://img.shields.io/badge/Patent-granted-orange.svg' alt='patent'></a></td></tr><!-- PATENT:END -->
 </table>
