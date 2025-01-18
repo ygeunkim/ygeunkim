@@ -21,22 +21,22 @@ jobs:
         with:
           comment_tag_name: JOURNAL
           feed_list: "https://ygeunkim.github.io/publication-type/2/index.xml"
-          template: "<li><a href=$url>$title</a></li>"
+          template: "<tr><td><li><a href=$url>$title</a></li></td><td><a href='https://ygeunkim.github.io/publication/#2'><img src='https://img.shields.io/badge/Journal%20article-published-orange.svg' alt='journal'></a></td></tr>"
       - name: Conferences
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: CONF
           feed_list: "https://ygeunkim.github.io/publication-type/1/index.xml"
-          template: "<li><a href=$url>$title</a></li>"
+          template: "<tr><td><li><a href=$url>$title</a></li></td><td><a href='https://ygeunkim.github.io/publication/#1'><img src='https://img.shields.io/badge/Conference%20paper-published-orange.svg' alt='conf'></a></td></tr>"
       - name: Posters
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: POSTER
           feed_list: "https://ygeunkim.github.io/publication-type/0/index.xml"
-          template: "<li><a href=$url>$title</a></li>"
+          template: "<tr><td><li><a href=$url>$title</a></li></td><td><a href='https://ygeunkim.github.io/publication/#0'><img src='https://img.shields.io/badge/Workshop%20%26%20poster-published-orange.svg' alt='poster'></a></td></tr>"
       - name: Patents
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: PATENT
           feed_list: "https://ygeunkim.github.io/publication-type/8/index.xml"
-          template: "<li><a href=$url>$title</a></li>"
+          template: "<tr><td><li><a href=$url>$title</a></li></td><td><a href='https://ygeunkim.github.io/publication/#8'><img src='https://img.shields.io/badge/Patent-granted-orange.svg' alt='patent'></a></td></tr>"

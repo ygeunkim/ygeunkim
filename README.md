@@ -81,37 +81,16 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
 <table>
-  <tr><th>Title</th><th>Status</th></tr>
-  <tr>
-    <td>
-    <!-- JOURNAL:START --><li><a href=https://ygeunkim.github.io/publication/bvhar/>Bayesian Vector Heterogeneous Autoregressive Modeling</a></li><!-- JOURNAL:END -->
-    </td>
-    <td>
-    <a href="https://ygeunkim.github.io/publication/#2"><img src="https://img.shields.io/badge/Journal%20articles-published-orange.svg" alt="journal"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <!-- CONF:START --><li><a href=https://ygeunkim.github.io/publication/nndsac/>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</a></li><li><a href=https://ygeunkim.github.io/publication/somifip/>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</a></li><!-- CONF:END -->
-    </td>
-    <td>
-    <a href="https://ygeunkim.github.io/publication/#1"><img src="https://img.shields.io/badge/Conference%20paper-published-orange.svg" alt="conf"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <!-- POSTER:START --><li><a href=https://ygeunkim.github.io/publication/kl_poster/>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</a></li><!-- POSTER:END -->
-    </td>
-    <td>
-    <a href="https://ygeunkim.github.io/publication/#0"><img src="https://img.shields.io/badge/Workshops%20%26%20posters-published-orange.svg" alt="poster"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <!-- PATENT:START --><li><a href=https://ygeunkim.github.io/publication/somanomaly/>Apparatus and method for detecting outliers in cyber-physical systems</a></li><!-- PATENT:END -->
-    </td>
-    <td>
-    <a href="https://ygeunkim.github.io/publication/#8"><img src="https://img.shields.io/badge/Patents-granted-orange.svg" alt="patent"></a>
-    </td>
-  </tr>
+  <tr><th></th><th></th></tr>
+  <!-- JOURNAL:START -->
+  <!-- JOURNAL:END -->
+  
+  <!-- CONF:START -->
+  <!-- CONF:END -->
+  
+  <!-- POSTER:START -->
+  <!-- POSTER:END -->
+  
+  <!-- PATENT:START -->
+  <!-- PATENT:END -->
 </table>
