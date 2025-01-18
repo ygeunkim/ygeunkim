@@ -108,8 +108,7 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
   </tr>
   <tr>
     <td>
-    <!-- PATENT:START -->
-    <!-- PATENT:END -->
+    <!-- PATENT:START --><li><a href=https://ygeunkim.github.io/publication/somanomaly/>Apparatus and method for detecting outliers in cyber-physical systems</a></li><!-- PATENT:END -->
     </td>
     <td>
     <a href="https://ygeunkim.github.io/publication/#8"><img src="https://img.shields.io/badge/Patents-granted-orange.svg" alt="patent"></a>
