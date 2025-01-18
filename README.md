@@ -84,8 +84,7 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
   <tr><th>Title</th><th>Status</th></tr>
   <tr>
     <td>
-    <!-- JOURNAL:START -->
-    <!-- JOURNAL:END -->
+    <!-- JOURNAL:START --><li><a href=https://ygeunkim.github.io/publication/bvhar/>Bayesian Vector Heterogeneous Autoregressive Modeling</a></li><!-- JOURNAL:END -->
     </td>
     <td>
     <a href="https://ygeunkim.github.io/publication/#2"><img src="https://img.shields.io/badge/Journal%20articles-published-orange.svg" alt="journal"></a>
