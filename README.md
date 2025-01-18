@@ -96,6 +96,7 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 #### [![poster](https://img.shields.io/badge/Workshops%20%26%20posters-published-orange.svg)](https://ygeunkim.github.io/publication/#0)
 
 <!-- POSTER:START -->
+- [Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
 <!-- POSTER:END -->
 
 #### [![journal](https://img.shields.io/badge/Patents-granted-orange.svg)](https://ygeunkim.github.io/publication/#8)
