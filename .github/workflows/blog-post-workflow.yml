@@ -15,8 +15,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Pull in Publications
+        uses: actions/checkout@v4
+      - name: Journal articles
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://ygeunkim.github.io/publication/index.xml"
+          comment_tag_name: JOURNAL
+          feed_list: "https://ygeunkim.github.io/publication-type/2/index.xml"
+      - name: Conferences
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: CONF
+          feed_list: "https://ygeunkim.github.io/publication-type/1/index.xml"
+      - name: Posters
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: POSTER
+          feed_list: "https://ygeunkim.github.io/publication-type/0/index.xml"
+      - name: Patents
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: PATENT
+          feed_list: "https://ygeunkim.github.io/publication-type/8/index.xml"
