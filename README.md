@@ -89,6 +89,8 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 #### [![conf](https://img.shields.io/badge/Conference%20paper-published-orange.svg)](https://ygeunkim.github.io/publication/#1)
 
 <!-- CONF:START -->
+- [Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series](https://ygeunkim.github.io/publication/nndsac/)
+- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
 <!-- CONF:END -->
 
 #### [![poster](https://img.shields.io/badge/Workshops%20%26%20posters-published-orange.svg)](https://ygeunkim.github.io/publication/#0)
