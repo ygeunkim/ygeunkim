@@ -80,27 +80,38 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
-#### [![journal](https://img.shields.io/badge/Journal%20articles-published-orange.svg)](https://ygeunkim.github.io/publication/#2)
-
-<!-- JOURNAL:START -->
-- [Bayesian Vector Heterogeneous Autoregressive Modeling](https://ygeunkim.github.io/publication/bvhar/)
-<!-- JOURNAL:END -->
-
-#### [![conf](https://img.shields.io/badge/Conference%20paper-published-orange.svg)](https://ygeunkim.github.io/publication/#1)
-
-<!-- CONF:START -->
-- [Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series](https://ygeunkim.github.io/publication/nndsac/)
-- [Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns](https://ygeunkim.github.io/publication/somifip/)
-<!-- CONF:END -->
-
-#### [![poster](https://img.shields.io/badge/Workshops%20%26%20posters-published-orange.svg)](https://ygeunkim.github.io/publication/#0)
-
-<!-- POSTER:START -->
-- [Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence](https://ygeunkim.github.io/publication/kl_poster/)
-<!-- POSTER:END -->
-
-#### [![journal](https://img.shields.io/badge/Patents-granted-orange.svg)](https://ygeunkim.github.io/publication/#8)
-
-<!-- PATENT:START -->
-- [Apparatus and method for detecting outliers in cyber-physical systems](https://ygeunkim.github.io/publication/somanomaly/)
-<!-- PATENT:END -->
+<table>
+  <tr><th>Title</th><th>Status</th></tr>
+  <tr>
+    <td>
+    <!-- JOURNAL:START --><!-- JOURNAL:END -->
+    </td>
+    <td>
+    [![journal](https://img.shields.io/badge/Journal%20articles-published-orange.svg)](https://ygeunkim.github.io/publication/#2)
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <!-- CONF:START --><!-- CONF:END -->
+    </td>
+    <td>
+    [![conf](https://img.shields.io/badge/Conference%20paper-published-orange.svg)](https://ygeunkim.github.io/publication/#1)
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <!-- POSTER:START --><!-- POSTER:END -->
+    </td>
+    <td>
+    [![poster](https://img.shields.io/badge/Workshops%20%26%20posters-published-orange.svg)](https://ygeunkim.github.io/publication/#0)
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <!-- PATENT:START --><!-- PATENT:END -->
+    </td>
+    <td>
+    [![patent](https://img.shields.io/badge/Patents-granted-orange.svg)](https://ygeunkim.github.io/publication/#8)
+    </td>
+  </tr>
+</table>
