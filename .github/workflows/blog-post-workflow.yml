@@ -21,22 +21,22 @@ jobs:
         with:
           comment_tag_name: JOURNAL
           feed_list: "https://ygeunkim.github.io/publication-type/2/index.xml"
-          template: "[$title]($url)"
+          template: "<a href=$url>$title</a>"
       - name: Conferences
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: CONF
           feed_list: "https://ygeunkim.github.io/publication-type/1/index.xml"
-          template: "[$title]($url)"
+          template: "<a href=$url>$title</a>"
       - name: Posters
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: POSTER
           feed_list: "https://ygeunkim.github.io/publication-type/0/index.xml"
-          template: "[$title]($url)"
+          template: "<a href=$url>$title</a>"
       - name: Patents
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: PATENT
           feed_list: "https://ygeunkim.github.io/publication-type/8/index.xml"
-          template: "[$title]($url)"
+          template: "<a href=$url>$title</a>"
