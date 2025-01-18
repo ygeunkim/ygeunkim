@@ -84,8 +84,7 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
   <tr><th></th><th></th></tr>
   <!-- JOURNAL:START --><tr><td><li><a href=https://ygeunkim.github.io/publication/bvhar/>Bayesian Vector Heterogeneous Autoregressive Modeling</a></li></td><td><a href='https://ygeunkim.github.io/publication/#2'><img src='https://img.shields.io/badge/Journal%20article-published-orange.svg' alt='journal'></a></td></tr><!-- JOURNAL:END -->
   
-  <!-- CONF:START -->
-  <!-- CONF:END -->
+  <!-- CONF:START --><tr><td><li><a href=https://ygeunkim.github.io/publication/nndsac/>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</a></li></td><td><a href='https://ygeunkim.github.io/publication/#1'><img src='https://img.shields.io/badge/Conference%20paper-published-orange.svg' alt='conf'></a></td></tr><tr><td><li><a href=https://ygeunkim.github.io/publication/somifip/>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</a></li></td><td><a href='https://ygeunkim.github.io/publication/#1'><img src='https://img.shields.io/badge/Conference%20paper-published-orange.svg' alt='conf'></a></td></tr><!-- CONF:END -->
   
   <!-- POSTER:START -->
   <!-- POSTER:END -->
