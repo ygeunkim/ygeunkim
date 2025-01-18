@@ -81,12 +81,15 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
 [![google-scholar](https://img.shields.io/badge/Google%20Scholar-Click-success?logo=google%20scholar&logoColor=4285F4&style=social)](https://scholar.google.com/citations?user=q-NdjAoAAAAJ&hl=en&authuser=3)
 
 <table>
-  <tr><th></th><th></th></tr>
-  <!-- JOURNAL:START --><tr><td><a href='https://ygeunkim.github.io/publication/#2'><img src='https://img.shields.io/badge/Journal%20article-yellow.svg' alt='journal'></a></td><td><li><a href=https://ygeunkim.github.io/publication/bvhar/>Bayesian Vector Heterogeneous Autoregressive Modeling</a></li></td></tr><!-- JOURNAL:END -->
+  <!-- JOURNAL:START -->
+  <!-- JOURNAL:END -->
   
-  <!-- CONF:START --><tr><td><a href='https://ygeunkim.github.io/publication/#1'><img src='https://img.shields.io/badge/Conference%20paper-lightblue.svg' alt='conf'></a></td><td><li><a href=https://ygeunkim.github.io/publication/nndsac/>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</a></li></td></tr><tr><td><a href='https://ygeunkim.github.io/publication/#1'><img src='https://img.shields.io/badge/Conference%20paper-lightblue.svg' alt='conf'></a></td><td><li><a href=https://ygeunkim.github.io/publication/somifip/>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</a></li></td></tr><!-- CONF:END -->
+  <!-- CONF:START -->
+  <!-- CONF:END -->
   
-  <!-- POSTER:START --><tr><td><a href='https://ygeunkim.github.io/publication/#0'><img src='https://img.shields.io/badge/Workshop%20%26%20poster-grey.svg' alt='poster'></a></td><td><li><a href=https://ygeunkim.github.io/publication/kl_poster/>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</a></li></td></tr><!-- POSTER:END -->
+  <!-- POSTER:START -->
+  <!-- POSTER:END -->
   
-  <!-- PATENT:START --><tr><td><a href='https://ygeunkim.github.io/publication/#8'><img src='https://img.shields.io/badge/Patent-lightgreen.svg' alt='patent'></a></td><td><li><a href=https://ygeunkim.github.io/publication/somanomaly/>Apparatus and method for detecting outliers in cyber-physical systems</a></li></td></tr><!-- PATENT:END -->
+  <!-- PATENT:START -->
+  <!-- PATENT:END -->
 </table>
