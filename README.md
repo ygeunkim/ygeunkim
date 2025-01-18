@@ -86,8 +86,7 @@ repos](https://github-readme-stats.vercel.app/api/top-langs/?username=ygeunkim&e
   
   <!-- CONF:START --><tr><td><a href='https://ygeunkim.github.io/publication/#1'><img src='https://img.shields.io/badge/Conference%20paper-lightblue.svg' alt='conf'></a></td><td><li><a href=https://ygeunkim.github.io/publication/nndsac/>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</a></li></td></tr><tr><td><a href='https://ygeunkim.github.io/publication/#1'><img src='https://img.shields.io/badge/Conference%20paper-lightblue.svg' alt='conf'></a></td><td><li><a href=https://ygeunkim.github.io/publication/somifip/>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</a></li></td></tr><!-- CONF:END -->
   
-  <!-- POSTER:START -->
-  <!-- POSTER:END -->
+  <!-- POSTER:START --><tr><td><a href='https://ygeunkim.github.io/publication/#0'><img src='https://img.shields.io/badge/Workshop%20%26%20poster-grey.svg' alt='poster'></a></td><td><li><a href=https://ygeunkim.github.io/publication/kl_poster/>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</a></li></td></tr><!-- POSTER:END -->
   
   <!-- PATENT:START -->
   <!-- PATENT:END -->
